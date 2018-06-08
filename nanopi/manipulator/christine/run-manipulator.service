@@ -2,7 +2,7 @@
 Description=Vortex Manta Manipulator Startup
 
 [Service]
-ExecStart=/usr/bin/launch_manipulator.sh
+ExecStart=/usr/bin/start-manipulator-script.sh
 Restart=always
 RestartSec=10
 
