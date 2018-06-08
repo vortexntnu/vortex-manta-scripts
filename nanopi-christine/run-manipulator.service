@@ -1,0 +1,10 @@
+[Unit]
+Description=Vortex Manta Manipulator Startup
+
+[Service]
+ExecStart=/usr/bin/launch_manipulator.sh
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
