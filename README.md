@@ -40,3 +40,14 @@ Additionally, export ROS variables in .bashrc file (vortex user)
 `export ROS_MASTER_URI=http://10.42.0.2:11311`
 `export ROS_IP=10.42.0.222`
 
+## Enabling the services
+run-manta.service example
+`cd /etc/systemd/system`
+
+`sudo systemctl enable run-manta.service`
+
+`sudo systemctl start run-manta.service`
+
+To view the status of a service, use the following command:
+
+`sudo journalctl -f -u run-manta.service`
