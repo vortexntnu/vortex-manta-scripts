@@ -19,9 +19,11 @@ To enable a service, the following steps need to be made.
 
 ## Camera
 nanopi-ingrid 10.42.0.78 
+
 nanopi-helga 10.42.0.123
 
 `sudo cp run-gstreamer.service /etc/systemd/system` 
+
 `sudo ln -s /absolute-path-to-git-folder/start-gstreamer.sh /usr/bin`
 
 ## Manipulator
