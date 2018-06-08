@@ -1,0 +1,10 @@
+[Unit]
+Description=Gstreamer NanoPi Ingrid startup
+
+[Service]
+ExecStart=/usr/bin/start-gstreamer.sh
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
