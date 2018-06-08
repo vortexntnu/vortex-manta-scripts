@@ -1,0 +1,11 @@
+[Unit]
+Description=Vortex Manta Startup
+
+[Service]
+ExecStart=/usr/bin/launch_manta.sh
+Restart=always
+RestartSec=10
+Environment="HOME=/home/vortex"
+
+[Install]
+WantedBy=multi-user.target
