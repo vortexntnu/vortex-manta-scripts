@@ -1,8 +1,9 @@
+
 [Unit]
-Description=Gstreamer NanoPi Ingrid startup
+Description=Camera NanoPi Helga startup
 
 [Service]
-ExecStart=/usr/bin/start-gstreamer.sh
+ExecStart=/usr/bin/start-camera-front.sh
 Restart=always
 RestartSec=10
 
